@@ -4,7 +4,7 @@ import Home from "./Pages/Home";
 import Login from "./Pages/Login";
 
 const AppRoute = () => {
-    return (<div style={{ background: 'url(/images/bg.png)', backgroundPosition: 'center center', height: '100vh', width: '100%' }}>
+    return (<div style={{ background: 'url(/images/bg.png)', backgroundPosition: 'center center', height: '100vh', width: '100%', overflow: 'auto' }}>
         <Router>
             <Routes>
                 <Route path='/' element={<Home />} />
