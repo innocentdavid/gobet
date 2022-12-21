@@ -23,7 +23,7 @@ const Home = () => {
                 <div style={{ borderTop: 'none' }} className="flex flex-col rounded-b-[10px]">
                     <div style={{ background: "radial-gradient(circle, rgba(255, 232, 113, 1) 0%, rgba(188, 110, 21, 1) 100%)" }} className=" text-[#330707] font-[400] text-[40px] md:text-[66.32px] leading-[77.65px] px-[70px] py-3 font-exotc">The Next BNB Draw</div>
                     <div style={{ borderTop: 'none' }} className="bg-[rgba(0,0,0,.5)] rounded-b-[10px] py-[20px] px-[20px] border-[5px] border-[#EA9E1A]">
-                        <div className="flex flex-col lg:flex-row gap-5">
+                        <div className="flex gap-5">
                             <div className="flex-1 flex flex-col items-center justify-center border-[3px] pt-2 pb-4 border-[#EA9E1A] rounded-[10px]">
                                 <p className="text-[17px] text-white font-akkuratPro">Total Pool</p>
                                 <h2 className="text-[28.8px] text-[#F08717] font-akkuratPro">0.00 BNB</h2>
