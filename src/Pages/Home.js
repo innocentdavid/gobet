@@ -2,15 +2,15 @@ const Home = () => {
     return (<>
         <div className="pt-[21px] flex justify-between items-start relative">
             <div className="py-[10px] px-[35px] bg-[rgba(0,0,0,.5)] rounded-r-[10px]">
-                <img src="/images/Gobet Draw.png" alt="" className="w-[204px] h-[fit-content]" />
-                <p className="text-white font-bold text-[16px] leading-[19.2px] font-akkuratPro">User : 0x778...ccA44</p>
-                <h2 className="text-[19.48px] font-bold text-[#DA8329] leading-[23.38px] font-akkuratPro">0.3 BNB</h2>
+                <img src="/images/Gobet Draw.png" alt="" className="w-[150px] md:w-[204px] h-[fit-content]" />
+                <p className="text-white font-bold text-[12px] md:text-[16px] leading-[19.2px] font-akkuratPro">User : 0x778...ccA44</p>
+                <h2 className="text-[14px] md:text-[19.48px] font-bold text-[#DA8329] leading-[23.38px] font-akkuratPro">0.3 BNB</h2>
             </div>
 
             <img src="/images/Logo (1).png" alt="" className="w-[426.82px] h-[fit-content] absolute left-[50%] -translate-x-[50%] hidden lg:block" />
 
             <div className="py-[10px] px-[25px] bg-[rgba(0,0,0,.5)] rounded-l-[10px]">
-                <img src="/images/Icon.png" alt="" className="w-[44px] h-[fit-content]" onClick={() => { window.location = "/login" }} />
+                <img src="/images/Icon.png" alt="" className="w-[20px] md:w-[44px] h-[fit-content]" onClick={() => { window.location = "/login" }} />
             </div>
         </div>
 
