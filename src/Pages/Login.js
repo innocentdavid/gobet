@@ -13,7 +13,7 @@ const Login = () => {
                     <button onClick={() => { window.location = "/" }} style={{
                         background: "linear-gradient(180deg, rgba(248, 216, 120, 1) 0%, rgba(222,139,47,1) 56%)"
                     }} className="
-                border-4 border-[#de8b2f] rounded-[15px] px-[35px] py-[10px] flex items-center gap-5 text-[#3D1105] text-[19.45px] font-bold">Connect Wallet <img src="/images/Vector 1.png" alt="" /></button>
+                border-4 border-[#de8b2f] rounded-[8px] px-[35px] py-[10px] flex items-center gap-5 text-[#3D1105] text-[19.45px] font-bold">Connect Wallet <img src="/images/Vector 1.png" alt="" /></button>
                 </div>
             </div>
         </>
