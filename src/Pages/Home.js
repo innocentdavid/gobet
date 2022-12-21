@@ -1,4 +1,8 @@
+import { useEffect } from "react";
+
 const Home = () => {
+    
+
     return (<>
         <div className="pt-[21px] flex justify-between items-start relative">
             <div className="py-[10px] px-[25px] md:px-[35px] bg-[rgba(0,0,0,.5)] rounded-r-[10px]">
@@ -38,7 +42,7 @@ const Home = () => {
 
                         <div className="flex justify-between font-anton">
                             <div className="text-center">
-                                <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="px-[16px] md:px-[20px] py-0 md:py-[5px] rounded-[10px] leading-[109.02px] text-[30px] md:text-[72.42px] text-[#330707] font-bold">00</div>
+                                <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="px-[16px] md:px-[20px] py-0 md:py-[5px] rounded-[10px] leading-[109.02px] text-[30px] md:text-[72.42px] text-[#330707] font-bold" id="hours">00</div>
                                 <p className="mt-1 text-[14px] md:text-lg text-white font-akkuratPro">Hours</p>
                             </div>
                             <div className="flex flex-col justify-center gap-5 -translate-y-2 px-5">
@@ -46,7 +50,7 @@ const Home = () => {
                                 <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="w-[15px] h-[15px] rounded-full"></div>
                             </div>
                             <div className="text-center">
-                                <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="px-[16px] md:px-[20px] py-0 md:py-[5px] rounded-[10px] leading-[109.02px] text-[30px] md:text-[72.42px] text-[#330707] font-bold">00</div>
+                                <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="px-[16px] md:px-[20px] py-0 md:py-[5px] rounded-[10px] leading-[109.02px] text-[30px] md:text-[72.42px] text-[#330707] font-bold" id="minutes">00</div>
                                 <p className="mt-1 text-[14px] md:text-lg text-white font-akkuratPro">Minutes</p>
                             </div>
                             <div className="flex flex-col justify-center gap-5 -translate-y-2 px-5">
@@ -54,7 +58,7 @@ const Home = () => {
                                 <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="w-[15px] h-[15px] rounded-full"></div>
                             </div>
                             <div className="text-center">
-                                <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="px-[16px] md:px-[20px] py-0 md:py-[5px] rounded-[10px] leading-[109.02px] text-[30px] md:text-[72.42px] text-[#330707] font-bold">00</div>
+                                <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="px-[16px] md:px-[20px] py-0 md:py-[5px] rounded-[10px] leading-[109.02px] text-[30px] md:text-[72.42px] text-[#330707] font-bold" id="second">00</div>
                                 <p className="mt-1 text-[14px] md:text-lg text-white font-akkuratPro">second</p>
                             </div>
                         </div>
