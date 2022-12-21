@@ -106,12 +106,12 @@ const Home = () => {
                 <div className="relative">
                     <img src="/images/star.png" alt="" className="absolute -top-5 -right-5" />
 
-                    <button onClick={() => { window.location = "/" }} style={{
+                    <button style={{
                         background: "linear-gradient(180deg, rgba(248, 216, 120, 1) 0%, rgba(222,139,47,1) 56%)"
                     }} className="
-                border-4 border-[#de8b2f] rounded-[8px] px-[35px] py-[10px] flex items-center gap-5 text-[#3D1105] text-[19.45px] font-bold">Telegram</button>
+                border-4 border-[#de8b2f] rounded-[8px] px-[35px] py-[10px] flex items-center gap-5 text-[#3D1105] text-[17px] md:text-[19.45px] font-bold">Telegram</button>
                 </div>
-                <div className="mx-[30px] md:mx-[80px] text-white text-[19.45px] leading-[23.34px] font-[700]">Logout</div>
+                <div className="mx-[30px] md:mx-[80px] text-white text-[17px] md:text-[19.45px] leading-[23.34px] font-[700]" onClick={() => { window.location = "/login" }}>Logout</div>
             </div>
         </div>
     </>);
