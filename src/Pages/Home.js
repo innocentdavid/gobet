@@ -1,7 +1,7 @@
 const Home = () => {
     return (<>
         <div className="pt-[21px] flex justify-between items-start relative">
-            <div className="py-[10px] px-[35px] bg-[rgba(0,0,0,.5)] rounded-r-[10px]">
+            <div className="py-[10px] px-[25px] md:px-[35px] bg-[rgba(0,0,0,.5)] rounded-r-[10px]">
                 <img src="/images/Gobet Draw.png" alt="" className="w-[150px] md:w-[204px] h-[fit-content]" />
                 <p className="text-white font-bold text-[12px] md:text-[16px] leading-[19.2px] font-akkuratPro">User : 0x778...ccA44</p>
                 <h2 className="text-[14px] md:text-[19.48px] font-bold text-[#DA8329] leading-[23.38px] font-akkuratPro">0.3 BNB</h2>
@@ -9,7 +9,7 @@ const Home = () => {
 
             <img src="/images/Logo (1).png" alt="" className="w-[426.82px] h-[fit-content] absolute left-[50%] -translate-x-[50%] hidden lg:block" />
 
-            <div className="py-[10px] px-[25px] bg-[rgba(0,0,0,.5)] rounded-l-[10px]">
+            <div className="py-[10px] px-[15px] md:px-[25px] bg-[rgba(0,0,0,.5)] rounded-l-[10px]">
                 <img src="/images/Icon.png" alt="" className="w-[20px] md:w-[44px] h-[fit-content]" onClick={() => { window.location = "/login" }} />
             </div>
         </div>
@@ -38,7 +38,7 @@ const Home = () => {
 
                         <div className="flex justify-between font-anton">
                             <div className="text-center">
-                                <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="px-[20px] py-[5px] rounded-[10px] leading-[109.02px] text-[72.42px] text-[#330707] font-bold">00</div>
+                                <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="px-[20px] py-[5px] rounded-[10px] leading-[109.02px] text-[20px] md:text-[72.42px] text-[#330707] font-bold">00</div>
                                 <p className="mt-1 text-lg text-white font-akkuratPro">Hours</p>
                             </div>
                             <div className="flex flex-col justify-center gap-5 -translate-y-2 px-5">
@@ -46,7 +46,7 @@ const Home = () => {
                                 <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="w-[15px] h-[15px] rounded-full"></div>
                             </div>
                             <div className="text-center">
-                                <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="px-[20px] py-[5px] rounded-[10px] leading-[109.02px] text-[72.42px] text-[#330707] font-bold">00</div>
+                                <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="px-[20px] py-[5px] rounded-[10px] leading-[109.02px] text-[20px] md:text-[72.42px] text-[#330707] font-bold">00</div>
                                 <p className="mt-1 text-lg text-white font-akkuratPro">Minutes</p>
                             </div>
                             <div className="flex flex-col justify-center gap-5 -translate-y-2 px-5">
@@ -54,14 +54,14 @@ const Home = () => {
                                 <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="w-[15px] h-[15px] rounded-full"></div>
                             </div>
                             <div className="text-center">
-                                <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="px-[20px] py-[5px] rounded-[10px] leading-[109.02px] text-[72.42px] text-[#330707] font-bold">00</div>
+                                <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="px-[20px] py-[5px] rounded-[10px] leading-[109.02px] text-[20px] md:text-[72.42px] text-[#330707] font-bold">00</div>
                                 <p className="mt-1 text-lg text-white font-akkuratPro">second</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="bg-[rgba(0,0,0,.5)] rounded-[10px] w-[506px] pr-2 font-akkuratPro">
+                <div className="bg-[rgba(0,0,0,.5)] rounded-[10px] md:w-[506px] pr-2 font-akkuratPro">
                     <div style={{ background: 'url(/images/Group2.png)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="min-h-[340px] bg-center bg-no-repeat px-[35px] pt-[50px]">
                         {/* <img src="/images/Group2.png" alt="" className="absolute top-0 left-0 w-full" /> */}
                         <div className="flex justify-between text-[#3D1105] font-bold text-[17px]">
