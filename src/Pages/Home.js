@@ -17,15 +17,22 @@ const Home = () => {
 
             <div className="flex gap-5">
                 <div className="flex flex-col border-4 border-[#b76a17] rounded-b-[10px]">
-                    <div className="bg-[#b76a17] text-[#330707] font-[400] text-[66.32px] leading-[77.65px]">The Next BNB Draw</div>
+                    <div className="bg-[#b76a17] text-[#330707] font-[400] text-[66.32px] leading-[77.65px] px-[70px] py-3">The Next BNB Draw</div>
                     <div className="flex gap-5 bg-[rgba(0,0,0,.5)] rounded-b-[10px] py-[10px] px-[20px]">
-                        <div className="flex-1 flex flex-col items-center justify-center border-2 border-[#b76a17]">
+                        <div className="flex-1 flex flex-col items-center justify-center border-[3px] pt-1 pb-3 border-[#b76a17]">
                             <p className="text-[17px] text-white">Total Pool</p>
                             <h2 className="text-[28.8px] text-[#F08717]">0.00 BNB</h2>
                         </div>
-                        <div className="flex-1 flex flex-col items-center justify-center border-2 border-[#b76a17]">
-                            <p className="text-[17px] text-white">Total Pool</p>
-                            <h2 className="text-[28.8px] text-[#F08717]">0.00 BNB</h2>
+                        <div className="flex-1 flex flex-col items-center justify-center border-[3px] pt-1 pb-3 border-[#b76a17]">
+                            <p className="text-[17px] text-white">Ticket Remaining</p>
+                            <h2 className="text-[28.8px] text-[#F08717]">1000000</h2>
+                        </div>
+                    </div>
+                    <p className="text-lg text-center text-white py-3">Ticket Sales have now CLOSED for this draw</p>
+                    <div className="flex">
+                        <div className="text-center">
+                            <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="px-[30px] py-[10px] rounded-[10px] leading-[109.02px] text-[72.42px] text-[#330707] font-bold">00</div>
+                            <p className="">Hours</p>
                         </div>
                     </div>
                 </div>
