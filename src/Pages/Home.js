@@ -18,10 +18,10 @@ const Home = () => {
             <img src="/images/Logo (1).png" alt="" className="w-[270px] md:w-[426.82px] h-[fit-content] lg:hidden" />
         </div>
 
-        <div className="flex flex-col items-center mt-[80px] lg:mt-[284px] pb-20">
+        <div className="flex flex-col items-center mt-[80px] lg:mt-[284px] pb-20 px-3">
             <div className="sm-items-center flex flex-col lg:flex-row gap-5">
                 <div style={{ borderTop: 'none' }} className="flex flex-col rounded-b-[10px]">
-                    <div style={{ background: "radial-gradient(circle, rgba(255, 232, 113, 1) 0%, rgba(188, 110, 21, 1) 100%)" }} className=" text-[#330707] font-[400] text-[40px] md:text-[66.32px] leading-[77.65px] px-[70px] py-3 font-exotc">The Next BNB Draw</div>
+                    <div style={{ background: "radial-gradient(circle, rgba(255, 232, 113, 1) 0%, rgba(188, 110, 21, 1) 100%)" }} className=" text-[#330707] font-[400] text-[30px] md:text-[66.32px] leading-[77.65px] px-[30px] md:px-[70px] py-3 font-exotc text-center">The Next BNB Draw</div>
                     <div style={{ borderTop: 'none' }} className="bg-[rgba(0,0,0,.5)] rounded-b-[10px] py-[20px] px-[20px] border-[5px] border-[#EA9E1A]">
                         <div className="flex gap-5">
                             <div className="flex-1 flex flex-col items-center justify-center border-[3px] pt-2 pb-4 border-[#EA9E1A] rounded-[10px]">
@@ -38,7 +38,7 @@ const Home = () => {
 
                         <div className="flex justify-between font-anton">
                             <div className="text-center">
-                                <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="px-[20px] py-[5px] rounded-[10px] leading-[109.02px] text-[20px] md:text-[72.42px] text-[#330707] font-bold">00</div>
+                                <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="px-[20px] py-[5px] rounded-[10px] leading-[109.02px] text-[40px] md:text-[72.42px] text-[#330707] font-bold">00</div>
                                 <p className="mt-1 text-lg text-white font-akkuratPro">Hours</p>
                             </div>
                             <div className="flex flex-col justify-center gap-5 -translate-y-2 px-5">
@@ -46,7 +46,7 @@ const Home = () => {
                                 <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="w-[15px] h-[15px] rounded-full"></div>
                             </div>
                             <div className="text-center">
-                                <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="px-[20px] py-[5px] rounded-[10px] leading-[109.02px] text-[20px] md:text-[72.42px] text-[#330707] font-bold">00</div>
+                                <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="px-[20px] py-[5px] rounded-[10px] leading-[109.02px] text-[40px] md:text-[72.42px] text-[#330707] font-bold">00</div>
                                 <p className="mt-1 text-lg text-white font-akkuratPro">Minutes</p>
                             </div>
                             <div className="flex flex-col justify-center gap-5 -translate-y-2 px-5">
@@ -54,7 +54,7 @@ const Home = () => {
                                 <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="w-[15px] h-[15px] rounded-full"></div>
                             </div>
                             <div className="text-center">
-                                <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="px-[20px] py-[5px] rounded-[10px] leading-[109.02px] text-[20px] md:text-[72.42px] text-[#330707] font-bold">00</div>
+                                <div style={{ background: "linear-gradient(165deg, rgba(132, 93, 13, 1) 0%, rgba(162, 168, 68, 1) 56%)" }} className="px-[20px] py-[5px] rounded-[10px] leading-[109.02px] text-[40px] md:text-[72.42px] text-[#330707] font-bold">00</div>
                                 <p className="mt-1 text-lg text-white font-akkuratPro">second</p>
                             </div>
                         </div>
