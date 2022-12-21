@@ -69,9 +69,9 @@ const Home = () => {
                             <p>0.0080 BNB</p>
                         </div>
 
-                        <div className="flex items-end gap-2 mt-0 justify-center">
-                            <p className="ptext text-[61.02px] leading-[73.23px] -mb-2">1</p>
-                            <p className="ptext2 text-[22.85px] leading-[27.42px] -mt-[10px]">Tickets</p>
+                        <div className="flex items-end gap-2 mt-[15px] justify-center">
+                            <p className="ptext text-[61.02px] leading-[53.23px] font-bold">1</p>
+                            <p className="ptext2 text-[22.85px] leading-[27.42px] font-bold">Tickets</p>
                         </div>
 
                         <div className="mt-[30px] flex flex-col gap-2">
